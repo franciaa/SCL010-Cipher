@@ -1,15 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Monda" rel="stylesheet">
+  <title> Cipher cesar</title> 
+</head>
+
+<body>
+
+  <div id="first-page">
+
+  
+    <h1 id="title">BIENVENID@S!</h1>
+
+  <div id="container">
+
+  <div id="img">
+      <img id="img-bullyng" src="https://i.ibb.co/s92h6tk/cuadrada.jpg" alt="cuadrada">
+   
+  </div>
+  
+  <div id="welcome">
+    <p id="letter"> <strong>INTRUCCIONES:</strong>Sabemos porque estas aqui, si sufres de bullying esta pagina web te podria ser muy util
+      para expresar lo que sientes, mediante un codigo secreto podras enviar un mensaje a una persona para que lo
+      descifre
+      y te pueda ayudar
+      Esta clave secreta se llama cifrado cesar y se trata de desplazar el abecedario. Por ejemplo si tu elijes el
+      numero
+      3 la <strong>A</strong> se desplazara 3 puestos hacia la derecha y en ese caso quedara como la letra <strong>D</strong></p>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+
+  </div>
+
+    <button id="btn-start" class="buttons" type="button">Comenzar</button>
+
+  </div>
+
+  <div id="second-page">
+
+    <p class="text-second-page">Primero que todo ingresa tu numero de cifrado </p>
+
+    <input type="number" id="num">
+    <p class="text-second-page">Ingresa tu texto aqui:</p>
+
+    <div id="message-block">
+      <textarea id="message" type="stext" placeholder="Escribe tu mensaje"></textarea>
+      <textarea id="result-message" type="text" placeholder="Resultado"></textarea>
+    </div>
+
+    <div id="btn-cipher">
+
+      <button id="btn-encode" type="button">Cifrar</button>
+      <button id="btn-decode" type="button">Descifrar</button>
+    </div>
+<br>
+      <p><strong>Muchas gracias por unirte a nuestra comunidad queremos ayudar a mas niños como tu a que puedan mandar mensajes secretos sin que ocurra un bullying cibernetico, Si conoces a alguien que sufre de bullying comparte nuestro link!</strong></p>
+   <br>
+      <div id="save">
+
+        
+        <a href="https://www.facebook.com/" target="»_blank»"> <button id="link" type="button">Compartir </button></a>
+      </div>
+  </div>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+
+ 
+</body>
+
 </html>
