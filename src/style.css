@@ -1,41 +1,55 @@
 *{
-  padding:20;
-  margin:10;
+  padding:30;
+  margin:30;
 }
 
-#tittle{
-    color:#00FF00;
-    margin-top: 40px;
-    text-align: center;
+#title{
+    color:#50274e;
+    margin-top: 60px;
+    text-align:center;
     font-family: 'Monda', sans-serif;
     font-size: 40px;
   }
   
   body{
-    background-color: #008282;
-    background-image: url("https://www.transparenttextures.com/patterns/old-map.png");
+    background-color: pink;
     }
 
 
     #letter{
-      font-size:20px;
-      color:black;
-      font-family: 'Monda', sans-serif;
-   
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      color:#212121;
     }
   
   
-    .buttons {
-      font-size: 1.5em;
-      width: 160px;
-      height: 100%;
-      color:#FF0000;
-      display:flex;
+   .buttons {
+      margin: 10px;
+      border-radius: 20px;
+      text-decoration: none;
+      padding: 5px;
+      font-size: 20px;
+      display: inline-block;
+      color: #9e1387;
+      border-bottom: 2px solid #50274e;
+      width: 140px;
+      height: 60px;
+      text-align: center;
+
+    }
+
+    #btn-start{
       justify-content: center;
       margin: 0 auto;
-      margin-top: 20px;
-      border-radius: 8px;
+      display: flex;
     }
+
+    #btn-start:hover{
+      background-color:#9e1387;
+      color:#fff;
+      border-color: none;
+    }
+    
     
   #second-page{
     display:none;
@@ -58,11 +72,10 @@
   }
 
   #btn-decode, #btn-encode{
-    font-size: 1.5em;
-      width: 160px;
-      height: 100%;
-      color:#FF0000;
-      border-radius: 8px;
+      display: inline-block;
+      color: #9e1387;
+      border-bottom: 2px solid #50274e;
+     
   }
 
   #img-bullyng{
@@ -75,19 +88,21 @@
  }
 
  #img{
-   margin-left:120px;
+   margin-left:110px;
    margin-top: 50px;
+   border-radius: 20px;
+   opacity: 0.8;
  }
 
  #text-welcome{
-  padding-top: 80px;
+  padding-top: 70px;
    margin-right: 120px;
  }
 
  .text-second-page{
    font-size: 18px;
    color:#212121;
-   font-family: 'Monda', sans-serif;
+   font-family:  'Cinzel', cursive;
    margin:20px;
  }
 
@@ -95,7 +110,21 @@
    width: 80px;
    height: 30px;
  }
+ 
+ #thanks{
+  font-family: 'Cinzel', cursive;;
+ }
 
+ #link{
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 15px;
+  display: inline-block;
+    color: #139e4d;
+    border-bottom: 4px solid #67bda3;
+
+ }
 
 
   
