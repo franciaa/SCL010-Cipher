@@ -39,6 +39,17 @@ document.getElementById("btn-decode").addEventListener("click",()=>
  document.getElementById("link").addEventListener("click",()=>
 {  
 }
-);
+,
+
+document.getElementById("back").addEventListener("click",()=>
+{  
+                                                                     
+    document.getElementById("first-page").style.display="block";
+    document.getElementById("second-page").style.display="none";
+
+}));
+
+
+
 
   
