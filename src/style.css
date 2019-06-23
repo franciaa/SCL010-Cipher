@@ -3,46 +3,12 @@
   margin:30;
 }
 
-/* header h1 {
-  color: white;
-} */
-
-@font-face
-{
+#sub-title{  
+font-family: 'Roboto', sans-serif;
+font-size: 22px;
+color:#212121;
+}
  
-  font-family: "IcoFont";
-font-weight: normal;
-font-style: "Regular";
-src: url("./fonts/icofont.woff2") format("woff2"),
-url("./fonts/icofont.woff") format("woff");
-}
-
-[class^="icofont-"], [class*=" icofont-"]
-{
-  font-family: 'IcoFont' !important;
-  speak:none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  line-height: 1;
-  -webkit-font-feature-settings: "liga";
-  -webkit-font-smoothing: antialiased;
-}
-
-
-.divider {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100px;
-  /* drop the height to have a constant angle for all screen widths */
-}
 
 #title{
     color:#50274e;
@@ -57,17 +23,12 @@ url("./fonts/icofont.woff") format("woff");
     height: 300px;
     background-image: linear-gradient(#74b4ce, #26ffff);
     }
-  /* body{ */
-    /* background-color: pink; */
-    /* } */
-
 
     #letter{
       font-family: 'Roboto', sans-serif;
       font-size: 22px;
       color:#212121;
     }
-  
   
    .buttons {
       margin: 10px;
@@ -175,7 +136,7 @@ url("./fonts/icofont.woff") format("woff");
   font-family: 'Cinzel', cursive;;
  }
 
- #link{
+ #link, #back{
   border-radius: 20px;
   text-decoration: none;
   padding: 12px;
@@ -183,9 +144,12 @@ url("./fonts/icofont.woff") format("woff");
   display: inline-block;
     color: #139e4d;
     border-bottom: 4px solid #67bda3;
+}
 
- }
- #link:hover{
+#home{
+  color: #67bda3;
+}
+ #link:hover, #back:hover{
   background-color:#5fb953;
   color:#fff;
   border-color: none;
